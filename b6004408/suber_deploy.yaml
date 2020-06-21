@@ -24,7 +24,7 @@ spec:
       containers:
       - image: chanwit/suber
         imagePullPolicy: Always
-        name: adder
+        name: suber
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
